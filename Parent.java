@@ -24,6 +24,7 @@ public abstract class Parent {
     public static void main(String[] args) {
 	// write your code here
         Scanner sc = new Scanner(System.in);
+	System.out.println("Enter Number: ");
         int n=sc.nextInt();
         if(n>=1 && n<=10) {
             Child childobj = new Child(n);
